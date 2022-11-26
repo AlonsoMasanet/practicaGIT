@@ -48,8 +48,9 @@
             // txt1
             // 
             this.txt1.Location = new System.Drawing.Point(44, 67);
+            this.txt1.Multiline = true;
             this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(415, 20);
+            this.txt1.Size = new System.Drawing.Size(415, 213);
             this.txt1.TabIndex = 1;
             // 
             // txt2
@@ -91,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(537, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.lbl2);
